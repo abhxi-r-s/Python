@@ -1,3 +1,4 @@
+
 a=int(input("Enter the number :"))
 def fact(n):
     if(n==0):
