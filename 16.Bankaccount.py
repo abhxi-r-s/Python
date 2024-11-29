@@ -12,8 +12,6 @@ class Bank_Account:
         print("Name:",self.name)
         print("Account Type",self.acctype)
         print("Balance:",self.balance)
-    def getbalance(self):
-        return self.balance
     def deposit(self,amt):
         self.balance=self.balance+amt
         print("Amount Deposited Successfully")
