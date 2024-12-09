@@ -7,6 +7,7 @@ print(dict1)
 
 keys.sort()
 
+
 dict_sort_asc={key:dict1[key] for key in keys}
 print("ascending order")
 print(dict_sort_asc)
